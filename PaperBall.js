@@ -16,7 +16,7 @@ class PaperBall {
     ellipseMode(RADIUS);
 
       fill("purple");
-      ellipse(0, 0,this.radius*2,this.radius*2);
+      ellipse(0, 0,this.radius,this.radius);
       pop();
     }
   };
